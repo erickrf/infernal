@@ -1,1 +1,8 @@
 *.pyc
+
+.idea/
+infernal.egg-info/
+model/
+build/
+data/
+dist/
