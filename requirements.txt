@@ -1,0 +1,9 @@
+scikit-learn
+rdflib
+requests
+zss
+nltk
+numpy
+spacy
+six
+scipy
