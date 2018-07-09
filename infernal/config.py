@@ -29,7 +29,7 @@ negation_rel = 'neg'
 stopwords_path = None
 
 # pickle is faster to read than wordnet in nt or ppdb in txt
-ownpt_path = '/Users/erick/dev/infernal-tedin/data/own-pt.pickle'
+ownpt_path = 'data/own-pt.pickle'
 ppdb_path = 'data/ppdb-xxl-phrasal.pickle'
 
 unitex_dictionary_path = 'data/Delaf2015v04.dic'
