@@ -27,7 +27,7 @@ def get_classifier(name, balanced):
     elif name == 'random-forest':
         return RandomForestClassifier(500, max_features='sqrt',
                                       class_weight=class_weight)
-    elif name == 'xgboost':
+    elif name == 'grad-boost':
         return GradientBoostingClassifier(n_estimators=500,
                                           max_features='sqrt',
                                           learning_rate=0.01)
@@ -40,7 +40,7 @@ if __name__ == '__main__':
     parser.add_argument('train_data', help='Training data (npz archive)')
     parser.add_argument('classifier', help='Type of classifier',
                         choices=['log-regression', 'svm', 'random-forest',
-                                 'xgboost'])
+                                 'grad-boost'])
     parser.add_argument('output', help='Directory to save the model')
     parser.add_argument('-b', dest='balanced', action='store_true',
                         help='Use balanced class weights')
