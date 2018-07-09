@@ -21,8 +21,7 @@ on the Computational Processing of Portuguese (PROPOR). 2018.
   author = {Erick Fonseca and Sandra M. Alu\'isio},
   title = {{Syntactic Knowledge for Natural Language Inference in Portuguese}},
   year = {2018},
-  booktitle = {Proceedings of the 2018 International Conference
-on the Computational Processing of Portuguese (PROPOR)}
+  booktitle = {Proceedings of the 13th International Conference on the Computational Processing of Portuguese (PROPOR 2018)}
 }
 ```
 
